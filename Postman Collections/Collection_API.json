@@ -7707,7 +7707,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"name\": \"{{name_app}}\",\r\n    \"account_id\": 179\r\n}"
+													"raw": "{\r\n    \"name\": \"{{name_app}}\",\r\n    \"account_id\": 110\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/applist/create"
 											},
@@ -17705,52 +17705,52 @@
 	],
 	"variable": [
 		{
-			"id": "19669f35-9599-4b84-9d76-01df1502fc38",
+			"id": "f8ca3e02-5797-45f4-92c5-26edd271d1d0",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "93e6c70d-94a8-4591-aa71-1773b50109a7",
+			"id": "16a89dc6-c6f6-414b-bd8e-2f0a91c98757",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "4cc15237-d0cc-4cdf-89c3-e50b1ae08c89",
+			"id": "b2e6c65f-429f-4e9b-b191-0e216b23b216",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "62c7891d-8f9c-4bf4-b621-32d0ffd7cc43",
+			"id": "6befb26d-d355-494d-8284-ccaf3023d679",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "e6259495-968d-4da7-8bd3-260789400550",
+			"id": "6fc1f74c-6e56-4bcf-89ae-41b376566074",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "3dcf52a1-48f9-4ce0-a7ce-8508d0ec67cf",
+			"id": "081bbc66-7573-4106-96a0-dae0ec7928b2",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "271b34d5-721a-4ea0-a770-f15cc3dca969",
+			"id": "5d16ac7a-f2de-4a14-b9f0-84eeef1b2114",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "f2048bb0-9678-4ade-b8b4-efab0519a8b8",
+			"id": "42a26731-b2bc-4f2f-86e9-efdd02abfd7b",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "aae36053-019e-4538-9c4d-d26613eb049e",
+			"id": "8fd7282a-9813-4053-9af7-2d49692d92e8",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "3304ca2f-70d9-4fe7-a818-7102f3a0acd5",
+			"id": "f4ebdbc8-bb12-493e-8321-e56e2a15ceba",
 			"key": "id_edge",
 			"value": "2"
 		}
