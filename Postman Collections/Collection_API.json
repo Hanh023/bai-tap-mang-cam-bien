@@ -8255,7 +8255,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"app_list_id\": {{id_app}},\r\n    \"sla_class_id\": {{id_SLA}},\r\n    \"site_id\": \"{{id_site}}\",\r\n    \"account_id\": 110\r\n}"
+													"raw": "{\r\n    \"app_list_id\": {{id_app}},\r\n    \"sla_class_id\": {{id_SLA}},\r\n    \"site_id\": null,\r\n    \"account_id\": 110\r\n}"
 												},
 												"url": "https://dev.lancsservice.net/management/api/v2/linksafe/sdwan/sla-policy/create"
 											},
@@ -17705,52 +17705,52 @@
 	],
 	"variable": [
 		{
-			"id": "70360a63-2d32-48dd-ab5f-87c452f9e68b",
+			"id": "53ff213c-0a42-49ca-b29d-fdf694d93f19",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "8003d2d8-4dbc-4509-9174-d62e9fb59df6",
+			"id": "02fa6fc7-e64a-4e35-90ec-81687d4eb59a",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "fea870ec-10a5-4a19-9135-4b930cc55f1b",
+			"id": "a18ed848-ec93-4d77-a093-2bbb937e72c4",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "052a8e3b-5bc4-4b4e-8f56-33dc564a81e0",
+			"id": "0b1326ab-4af8-4e69-a6e4-fcae06dc8d77",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "65672829-c4a4-4898-862c-1314ec6b27c5",
+			"id": "7dbf4ad3-f762-4352-82cd-87d25255dd8a",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "dfed6de4-fee2-4748-9958-dd87479e5576",
+			"id": "8871d6e1-878d-45a2-81b3-806bbe3953e8",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "7274d49c-4d4c-419b-b6d0-338e5d75ce8b",
+			"id": "ca64b4e9-2e33-4c11-9b47-d9ede50770b3",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "373cd0b4-b128-45a4-b03e-354bd1c65c18",
+			"id": "64d7a66c-4f7a-4b50-91b1-85925da33f3a",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "d6cb5679-0f09-47ee-834e-05b7dbd3c900",
+			"id": "8a50f630-e571-4ea0-8ca2-6dde734ef5ed",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "938d422c-318f-463b-bfa6-a79a1556198d",
+			"id": "a8dd3e2d-4a7f-4168-8f92-9dd9dbb2e564",
 			"key": "id_edge",
 			"value": "2"
 		}
