@@ -8253,7 +8253,7 @@
 													"mode": "raw",
 													"raw": "{\r\n    \"app_list_id\": {{id_app}},\r\n    \"sla_class_id\": {{id_SLA}},\r\n    // \"site_id\": \"{{id_site}}\",\r\n    \"account_id\": 110\r\n}"
 												},
-												"url": "https://dev.lancsservice.net/management/api/v2/linksafe/sdwan/sla-policy/create"
+												"url": "{{url_logins}}/linksafe/sdwan/sla-policy/create"
 											},
 											"response": []
 										},
@@ -17701,52 +17701,52 @@
 	],
 	"variable": [
 		{
-			"id": "625cec42-ef03-4fc3-a2bd-246af0808a66",
+			"id": "5fcb632c-4e2f-40e0-ac7f-4c5177764ef4",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "caf40757-71c6-4f4a-a523-7dc86da44893",
+			"id": "322975b6-7c69-451c-8884-f349345e2143",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "b61557ca-f8bf-4bfb-a4f4-78611dfbed2b",
+			"id": "84bb394f-bb0a-48d2-8e05-c328d4584b17",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "5b187a24-cfc4-44c5-8f9f-3401c91384a1",
+			"id": "46e59092-4df9-4cd2-a979-9ecf616a1cd6",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "b6ed3511-89c5-4eb4-8d00-1acf7bc33593",
+			"id": "d9a3dd57-50c8-4291-9dd1-f53ef54b3938",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "fbf1b755-e2b6-44bf-b1f5-95e6a264ecd5",
+			"id": "40949f14-0e5a-4191-b94b-a62d498a6aa1",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "33dc8e04-d6b3-429f-8e3c-c406e0616c05",
+			"id": "b5825812-1760-427c-bf4f-b61c26fe172e",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "1a1f9a53-29cc-44e0-9d76-7f345e9404e0",
+			"id": "1cc7cbec-b0b7-4c03-acbd-40643f2cde30",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "1171ae7e-82fa-4beb-bc2d-891a228e71d9",
+			"id": "445f2167-2591-4b2c-b622-f9b67c8e0c1c",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "4a30aa87-f720-4324-b566-929a16d80240",
+			"id": "4aeba6ca-034a-4219-8eae-1acccc4e77fa",
 			"key": "id_edge",
 			"value": "2"
 		}
