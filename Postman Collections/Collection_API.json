@@ -9721,7 +9721,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\"id\":{{id_aar}}"
+													"raw": "{\r\n    \"id\": {{id_aar}}\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/sla-policy/delete"
 											},
@@ -17705,52 +17705,52 @@
 	],
 	"variable": [
 		{
-			"id": "9cbfb8e2-1d0e-4a81-bc9f-c0fdba3b5a4b",
+			"id": "101a2d97-50e7-44cc-8ab2-f375e0aa5fdd",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "f4c34a6b-e1fe-4f8c-a296-d4118662ab42",
+			"id": "8e65c053-f0cd-4a2e-9974-e17e9de48444",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "09e88a00-3455-4041-a37c-2ff5d1123a41",
+			"id": "accb8a39-f808-4ff2-a259-801bc1aefc06",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "55b826fc-cb97-4af1-a6cc-c5cb2f889012",
+			"id": "cf5e870b-4aa3-48fe-995c-572a5480f206",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "40864da5-7f93-4f40-8cab-e4a2acad7ad9",
+			"id": "c4f5a1e0-9b41-4c48-bda9-9ab9127619de",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "2cfa0e00-a6f5-42f6-9b1a-849e048ed2b5",
+			"id": "34aa6973-097e-4327-90af-688e55d6e1d0",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "6771456c-b038-4a00-8a29-67ee1acbce13",
+			"id": "5f7cf9be-0c2a-40a0-9a34-ed23155bd386",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "bfef459d-92ce-40c1-9534-59dacdf633f8",
+			"id": "75239b4d-0a32-415c-a812-82128916c3bc",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "11b387c8-763a-43e5-8fb0-07c5fda6707a",
+			"id": "c12524a6-a921-4f77-a96a-fc2ea177b6b4",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "5ac4554e-2147-4835-bb20-914e79799712",
+			"id": "47935087-2ac0-47e1-870e-579867d6e488",
 			"key": "id_edge",
 			"value": "2"
 		}
