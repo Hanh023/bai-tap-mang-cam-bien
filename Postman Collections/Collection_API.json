@@ -8172,12 +8172,18 @@
 															"  ]\r",
 															"}\r",
 															"if (jsonData.error_code == undefined) {\r",
-															"    pm.response.to.have.status(200);\r",
-															"    pm.response.to.have.jsonSchema(schema)\r",
-															"    pm.environment.set(\"id_aar\", jsonData.data.id)\r",
+															"    pm.test(\"create aar policy success\",()=>{\r",
+															"        pm.response.to.have.status(200);\r",
+															"        pm.response.to.have.jsonSchema(schema)\r",
+															"        pm.environment.set(\"id_aar\", jsonData.data.id)\r",
+															"    })\r",
+															"        \r",
 															"} else {\r",
-															"    pm.expect(pm.response.code).to.be.oneOf([200, 400])\r",
-															"    // pm.response.to.have.jsonSchema(schema)\r",
+															"    pm.test(\"create aar policy not succes\",()=>{\r",
+															"        pm.expect(pm.response.code).to.be.oneOf([200, 400])\r",
+															"        // pm.response.to.have.jsonSchema(schema)\r",
+															"    })\r",
+															"        \r",
 															"}\r",
 															""
 														],
@@ -17701,52 +17707,52 @@
 	],
 	"variable": [
 		{
-			"id": "5fcb632c-4e2f-40e0-ac7f-4c5177764ef4",
+			"id": "52a28379-1546-4f12-b26b-fca9d95df923",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "322975b6-7c69-451c-8884-f349345e2143",
+			"id": "6363fbb6-760b-4aac-819f-7d7a8e6e0e8e",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "84bb394f-bb0a-48d2-8e05-c328d4584b17",
+			"id": "c3d3da4d-91fe-4eb6-b186-890f149d45a1",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "46e59092-4df9-4cd2-a979-9ecf616a1cd6",
+			"id": "e243ad2d-eb8d-41d5-ab84-a366962a8ee7",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "d9a3dd57-50c8-4291-9dd1-f53ef54b3938",
+			"id": "f80d9474-4ce1-40a9-b72d-847411dc8c28",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "40949f14-0e5a-4191-b94b-a62d498a6aa1",
+			"id": "ea28ad5b-dd73-4cc7-9d66-ec4d9e99d6ca",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "b5825812-1760-427c-bf4f-b61c26fe172e",
+			"id": "0d4ea98a-1b3b-4e40-85c4-935631221038",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "1cc7cbec-b0b7-4c03-acbd-40643f2cde30",
+			"id": "6102c2ce-7f85-4ae5-bd0f-396737461b53",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "445f2167-2591-4b2c-b622-f9b67c8e0c1c",
+			"id": "599dfaf8-e3d6-4cf2-a7f7-f88e737a263d",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "4aeba6ca-034a-4219-8eae-1acccc4e77fa",
+			"id": "0a010f6c-d326-40be-a5f8-722b0ecdf3e3",
 			"key": "id_edge",
 			"value": "2"
 		}
