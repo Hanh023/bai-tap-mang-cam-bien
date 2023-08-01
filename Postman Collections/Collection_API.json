@@ -8154,9 +8154,6 @@
 															"                \"account_id\": {\r",
 															"                    \"type\": \"integer\"\r",
 															"                },\r",
-															"                \"site_id\": {\r",
-															"                    \"type\": \"string\"\r",
-															"                },\r",
 															"                \"apply_global\": {\r",
 															"                    \"type\": \"integer\"\r",
 															"                }\r",
@@ -8166,7 +8163,6 @@
 															"                \"sla_class_id\",\r",
 															"                \"app_list_id\",\r",
 															"                \"account_id\",\r",
-															"                \"site_id\",\r",
 															"                \"apply_global\"\r",
 															"            ]\r",
 															"        }\r",
@@ -8255,7 +8251,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"app_list_id\": {{id_app}},\r\n    \"sla_class_id\": {{id_SLA}},\r\n    \"site_id\": null,\r\n    \"account_id\": 110\r\n}"
+													"raw": "{\r\n    \"app_list_id\": {{id_app}},\r\n    \"sla_class_id\": {{id_SLA}},\r\n    // \"site_id\": \"{{id_site}}\",\r\n    \"account_id\": 110\r\n}"
 												},
 												"url": "https://dev.lancsservice.net/management/api/v2/linksafe/sdwan/sla-policy/create"
 											},
@@ -17705,52 +17701,52 @@
 	],
 	"variable": [
 		{
-			"id": "101a2d97-50e7-44cc-8ab2-f375e0aa5fdd",
+			"id": "fe3a32e2-cfbc-4ea6-b417-76fc41c99d57",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "8e65c053-f0cd-4a2e-9974-e17e9de48444",
+			"id": "41656877-c5e1-4dbf-be30-40a306777f7a",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "accb8a39-f808-4ff2-a259-801bc1aefc06",
+			"id": "c3984447-d4d3-44a3-81a5-66543d1ff0fd",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "cf5e870b-4aa3-48fe-995c-572a5480f206",
+			"id": "45803f75-6009-4713-8e52-98ce2dba0a6e",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "c4f5a1e0-9b41-4c48-bda9-9ab9127619de",
+			"id": "4a0140f8-73ac-4f44-8412-1d2258843556",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "34aa6973-097e-4327-90af-688e55d6e1d0",
+			"id": "a6e15da0-1997-4966-b315-e6faa76af578",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "5f7cf9be-0c2a-40a0-9a34-ed23155bd386",
+			"id": "3864258c-d074-4b41-b296-f982a1cc1c5f",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "75239b4d-0a32-415c-a812-82128916c3bc",
+			"id": "6481ed5c-a0e5-4998-b50d-fefab02d5bfb",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "c12524a6-a921-4f77-a96a-fc2ea177b6b4",
+			"id": "455cd5e6-7ea7-41f7-9036-a15fe9d476fa",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "47935087-2ac0-47e1-870e-579867d6e488",
+			"id": "0a5ecbab-6d63-4e58-83cc-c0ed7ee8b181",
 			"key": "id_edge",
 			"value": "2"
 		}
