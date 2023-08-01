@@ -5853,8 +5853,8 @@
 											"if(jsonData.error_code == undefined){",
 											"    pm.test(\"Delete all group success\",()=>{",
 											"        pm.response.to.have.jsonSchema(schema)",
-											"        pm.environment.unset(\"group_ids\")",
-											"        pm.environment.unset(\"delete_all_group\")",
+											"        // pm.environment.unset(\"group_ids\")",
+											"        // pm.environment.unset(\"delete_all_group\")",
 											"    })",
 											"}",
 											"",
@@ -17707,52 +17707,52 @@
 	],
 	"variable": [
 		{
-			"id": "5fc32562-3024-419a-bbf5-19d2ba82b657",
+			"id": "95de37c5-354b-4d71-827e-425dbefdf26a",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "b00df478-4fb8-4a10-bb84-d5dcc442f33e",
+			"id": "0bc36ccd-dbe8-4642-a33b-5f8866c93529",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "c39c8736-df5b-421d-86c2-7d8d6d26afc6",
+			"id": "b796331c-594d-488f-a207-cf203ea86e0f",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "c5605a56-e749-4953-af98-74e6e6d10555",
+			"id": "5a30cdc9-16b6-4b88-9cac-49cdbd526773",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "448d372c-879b-44f8-bc00-98ec2e13916f",
+			"id": "b58e895a-8fcb-4712-ab6f-83058927136b",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "914c2afe-ba7f-4b25-a6b5-a000b3b80db6",
+			"id": "0adce025-6fd6-4760-8b0e-c1674a406197",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "02c24129-aaf3-4daa-a697-d5d6ab26728b",
+			"id": "51feb5f0-9044-4283-8455-cc5d767ddce8",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "2a3dbc82-74cb-42b1-a279-fa689d51c990",
+			"id": "a402c73f-be70-4549-a378-acdac675a3f6",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "962ddd37-bf7f-42af-983a-907d76d1fbe1",
+			"id": "3230e705-4e1c-4a9f-b00b-f98df95204b8",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "938c97bf-786d-451f-a5a5-9d60256cce95",
+			"id": "91b91780-d4e1-4c43-8d11-c106d883935b",
 			"key": "id_edge",
 			"value": "2"
 		}
