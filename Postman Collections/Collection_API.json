@@ -7148,11 +7148,11 @@
 													"script": {
 														"id": "51a23208-2612-41ec-8958-36f3d69778c8",
 														"exec": [
-															"var Randm = Math.floor(Math.random() * 101)",
+															"var Randm = Math.floor(Math.random() * 1001)",
 															"var name = \"Mailan\" + Randm;",
 															"pm.environment.set(\"site_name\",name)",
 															"",
-															"var Sitecount = pm.environment.set(\"site_count\")",
+															"// var Sitecount = pm.environment.set(\"site_count\")",
 															"",
 															"// if(Sitecount < 10){",
 															"//     Sitecount = parseInt(Sitecount) + 1;",
@@ -7285,7 +7285,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"name\": \"{{site_mame}}\",\r\n    \"system_ip\": \"{{$randomIP}}\",\r\n    \"location\": \"7PH72RC7+V7\"\r\n}\r\n// {\r\n//     \"name\": \"{{site_name}}\",\r\n//     \"system_ip\": \"{{site_system_ip}}\",\r\n//     \"location\": \"7PH72RC7+V7\"\r\n// }"
+													"raw": "{\r\n    \"name\": \"{{site_name}}\",\r\n    \"system_ip\": \"{{$randomIP}}\",\r\n    \"location\": \"7PH72RC7+V7\"\r\n}\r\n// {\r\n//     \"name\": \"{{site_name}}\",\r\n//     \"system_ip\": \"{{site_system_ip}}\",\r\n//     \"location\": \"7PH72RC7+V7\"\r\n// }"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/sites/create"
 											},
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "6bda41eb-4da0-4bfe-9469-db9ea851e223",
+			"id": "fcfe4fbe-3ac1-46be-b943-17ff37704044",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "0f65f3c6-b1d8-48d9-a8b9-beb30c110452",
+			"id": "1604ca72-bc82-4e87-94ff-9188a20d8b1a",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "dcfa039d-87d6-4d69-bc04-e0f5b5fe3ad1",
+			"id": "4a28be28-7813-43ec-96a1-78865f905049",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "18858a90-4405-459b-a77f-f1b419a368c2",
+			"id": "05105fb5-9330-494a-a70d-22b3ba5c6e18",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "d8ffc46a-5d2b-49b9-a36a-98992d6f5ee2",
+			"id": "8bd3ad3e-6445-4fa7-808b-c718287d9989",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "01c8fa95-9908-4284-ac0b-bc390f56cc78",
+			"id": "92481a01-c2a7-4e64-b7d3-e431e4149c17",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "bd682704-bb6f-4370-a5d2-e51b160ac689",
+			"id": "73e03ac5-9a85-4b88-870d-9d488f67030e",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "30794023-df00-4877-90b9-b0bfb19e9fbf",
+			"id": "fd95ae81-a656-47ce-8950-d758e178c6cf",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "86aa30d9-3fb8-4c77-aada-f3d0533ad23a",
+			"id": "5a20bce9-19ab-4667-b353-ae81dbfced59",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "fa9b6088-671d-404b-abf6-82fb4494b8d0",
+			"id": "969ded90-ca60-4811-8ebf-4ec259b3f3fb",
 			"key": "id_edge",
 			"value": "2"
 		}
