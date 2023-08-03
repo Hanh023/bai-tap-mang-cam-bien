@@ -8120,7 +8120,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"name\": \"{{user_name_SLAclass}}\",\r\n    \"loss\": {{SLAclass_loss}},\r\n    \"latency\": {{SLAclass_latency}},\r\n    \"jitter\": {{SLAclass_jitter}},\r\n    \"wan_id\": [\r\n        {{SLAclass_wan}}\r\n    ],\r\n    \"account_id\": 110\r\n}"
+													"raw": "{\r\n    \"name\": \"{{user_name_SLAclass}}\",\r\n    \"loss\": {{SLAclass_loss}},\r\n    \"latency\": {{SLAclass_latency}},\r\n    \"jitter\": {{SLAclass_jitter}},\r\n    \"wan_id\": [\r\n        {{SLAclass_wan}}\r\n    ],\r\n    \"account_id\": {{account_id}}\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/sla/create"
 											},
@@ -10764,52 +10764,52 @@
 	],
 	"variable": [
 		{
-			"id": "b9e90609-8440-47d2-95fd-442ee25c5b43",
+			"id": "5e57f407-0387-401b-8023-d8795d1f484d",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "cb23b3ff-96b3-449c-8aa4-82529a4ff978",
+			"id": "991983cf-b531-4825-abf6-2e090ecd5462",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "ec1afdec-9a01-499b-865e-d36b6f56636a",
+			"id": "c98cfdfc-f0f9-44bb-9246-f3d68d992c38",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "ddc76895-a236-4837-b204-52c3bc814335",
+			"id": "7b847b8f-beeb-4fc9-91d3-00005c772d17",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "b6edfe28-17ec-45cc-8c8d-d053e3d45f56",
+			"id": "59d077b1-6f24-4a49-ab1f-21c0009e2c77",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "a546084a-c4fa-4558-a6a8-de7e5f2071d5",
+			"id": "c6ba193c-90ef-4720-8f49-8f2968b44c74",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "cef96250-d112-4d7d-9e5e-342a671a15ae",
+			"id": "24e31af3-15e1-49db-bf92-2cd6f66af879",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "3b1e4469-06b0-4cad-8d2d-3b995070730c",
+			"id": "a7ef4774-64d9-4bcc-96d0-e68793724fa4",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "57ff6f42-5653-4c57-8233-6c4ef3f6c883",
+			"id": "4d71516e-91b6-4db6-b1ae-dda09516ff6f",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "5ea0c572-f07d-43d8-8dd0-7404563a9fb5",
+			"id": "280a1956-4547-4b6f-825c-9bc80d73a08b",
 			"key": "id_edge",
 			"value": "2"
 		}
