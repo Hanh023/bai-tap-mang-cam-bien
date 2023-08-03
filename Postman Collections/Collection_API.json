@@ -7483,7 +7483,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "// {\r\n//     \"id\": \"{{id_site}}\",\r\n//     \"ip\": \"{{$randomIP}}\",\r\n//     \"port\": 13\r\n// }\r\n{\r\n    \"id\": \"{{id_site}}\",\r\n    \"ip\": {{site_hub_ip}},\r\n    \"port\": {{site_hub_port}}\r\n}"
+													"raw": "// {\r\n//     \"id\": \"{{id_site}}\",\r\n//     \"ip\": \"{{$randomIP}}\",\r\n//     \"port\": 13\r\n// }\r\n{\r\n    \"id\": \"{{id_site}}\",\r\n    \"ip\": \"{{site_hub_ip}}\",\r\n    \"port\": {{site_hub_port}}\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/site/choice-site-to-hub"
 											},
@@ -10760,52 +10760,52 @@
 	],
 	"variable": [
 		{
-			"id": "ef9ca761-4ca5-4312-8e61-8968923fe51f",
+			"id": "a6744ec9-06bc-4714-b46b-3797028171d7",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "152b861d-0ff4-4db9-ae77-6791ef635e02",
+			"id": "c6b40f50-f317-4e89-a797-7e13c5ce1a4e",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "61d3c8bf-5dc9-4d38-9017-81e4f75b7c60",
+			"id": "95828db7-7104-4818-bd0e-80980f71a4aa",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "19bb9897-81a8-4d96-a9ad-61b66bee4273",
+			"id": "0ff0b218-fa1c-4881-887a-c4173505efe0",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "d56d2af3-07a5-44cb-9659-91293b26a865",
+			"id": "f0ddba4d-de9a-42c1-a803-351db996e8a6",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "db9fa250-db9e-491c-a9f4-03df67c02923",
+			"id": "521b0929-fb9a-41e2-b5ba-d7ab73baaf7b",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "f212903e-59e2-43a8-84d9-c693fbd15812",
+			"id": "4af857b2-a65f-4d54-8bbe-46bbc8841cca",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "9baaf878-84ff-4951-b0c9-cd12a289cc12",
+			"id": "a4dad93e-fc6f-4a3e-b55c-59d89f6087c0",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "aaf6214a-0b9c-4709-9ba9-1eadc9e49c59",
+			"id": "4e0f6c1d-c7ef-494e-8fc2-f13a3a40e2f4",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "165f8ced-b594-4ed7-9222-dc7857d07d52",
+			"id": "0ab23ab5-d30f-4f06-83fc-04c0ad014585",
 			"key": "id_edge",
 			"value": "2"
 		}
