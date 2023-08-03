@@ -7867,20 +7867,20 @@
 													"script": {
 														"id": "fef01e43-6a20-445f-9c3f-b42ef360a4a5",
 														"exec": [
-															"var Randm = Math.floor(Math.random() * 101);\r",
+															"// var Randm = Math.floor(Math.random() * 101);\r",
 															"\r",
-															"var name =  \"hanh\" + Randm;\r",
-															"pm.environment.set(\"name_detail\",name)\r",
+															"// var name =  \"hanh\" + Randm;\r",
+															"// pm.environment.set(\"name_detail\",name)\r",
 															"\r",
-															"var detailcount = pm.environment.set(\"detail_count\")\r",
+															"// var detailcount = pm.environment.set(\"detail_count\")\r",
 															"\r",
-															"if(detailcount < 10){\r",
-															"    detailcount = parseInt(detailcount) + 1;\r",
-															"    pm.environment.set(\"detail_count\")\r",
-															"    postman.setNextRequest(\"create app\")\r",
-															"}else {\r",
-															"    postman.setNextRequest(null)\r",
-															"}"
+															"// if(detailcount < 10){\r",
+															"//     detailcount = parseInt(detailcount) + 1;\r",
+															"//     pm.environment.set(\"detail_count\")\r",
+															"//     postman.setNextRequest(\"create app\")\r",
+															"// }else {\r",
+															"//     postman.setNextRequest(null)\r",
+															"// }"
 														],
 														"type": "text/javascript"
 													}
@@ -10760,52 +10760,52 @@
 	],
 	"variable": [
 		{
-			"id": "33bf46b5-5982-4fcd-845e-10e4b0e7bd7c",
+			"id": "04263129-ab6b-401a-b354-7a5e8bab9049",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "db537714-411b-4c79-ae7f-2a68b74e9604",
+			"id": "d6c2a4b6-2234-4025-8887-6e9d05852e7e",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "f5d5ab80-ab26-4597-a9fe-2aa7edf4b2d5",
+			"id": "484d0d1d-4b33-4232-b6bf-4417f01272a9",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "60d2a1d0-42a9-4bfb-8878-bcd9707f0e57",
+			"id": "7f4aeea4-1237-4b06-9d01-9c1984a0e486",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "7cfacdaf-3493-4e41-bcc3-f84e50e1a8fc",
+			"id": "2f2cddcd-6890-4c20-87bf-38e227e25279",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "95a8f188-5fcf-4596-9e7f-6f5dce386b68",
+			"id": "628b0dfe-208d-4b50-98ab-a2f0d909c461",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "6db27dc4-fec1-411d-b431-a8e16d1f75da",
+			"id": "e1aae9cf-8c72-4a04-bb47-cdf359837501",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "676d7b97-7205-4301-bdde-94c4fbfa0f9f",
+			"id": "8f34602d-a968-4db6-9441-b38a043f30d5",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "494f4fc3-2020-4eb6-96e3-c1e390caee4d",
+			"id": "122b501d-abc2-4c27-bfad-2187b78ef968",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "852ebc77-562e-4828-9396-827e9763dcc6",
+			"id": "da935517-90fd-407f-9579-76bf06a35113",
 			"key": "id_edge",
 			"value": "2"
 		}
