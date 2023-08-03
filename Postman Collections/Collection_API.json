@@ -8120,7 +8120,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"name\": \"{{user_name_SLAclass}}\",\r\n    \"loss\": {{SLAclass_loss}},\r\n    \"latency\": {{SLAclass_latency}},\r\n    \"jitter\": {{SLAclass_jitter}},\r\n    \"wan_id\": [\r\n        {{SLAclass_wan}}\r\n    ],\r\n    \"account_id\": {{account_id}}\r\n}"
+													"raw": "{\r\n    \"name\": \"{{user_name_SLAclass}}\",\r\n    \"loss\": {{SLAclass_loss}},\r\n    \"latency\": {{SLAclass_latency}},\r\n    \"jitter\": {{SLAclass_jitter}},\r\n    \"wan_id\": {{SLAclass_wan}},\r\n    \"account_id\": {{account_id}}\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/sla/create"
 											},
@@ -8404,7 +8404,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"name\": \"{{name_custom}}\",\r\n    \"target_ip\": \"{{$randomIP}}\",\r\n    \"port_start\": {{$randomInt}},\r\n    \"port_end\": {{$randomInt}},\r\n    \"protocol\": \"tcp\"\r\n}"
+													"raw": "// {\r\n//     \"name\": \"{{name_custom}}\",\r\n//     \"target_ip\": \"{{$randomIP}}\",\r\n//     \"port_start\": {{$randomInt}},\r\n//     \"port_end\": {{$randomInt}},\r\n//     \"protocol\": \"tcp\"\r\n// }\r\n\r\n{\r\n    \"name\": \"{{custom_name}}\",\r\n    \"target_ip\": \"{{custom_target_ip}}\",\r\n    \"port_start\": {{custon_port_start}},\r\n    \"port_end\": {{custon_port_end}},\r\n    \"protocol\": \"{{custom_protocol}}\"\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/customApp/create"
 											},
@@ -10764,52 +10764,52 @@
 	],
 	"variable": [
 		{
-			"id": "5e57f407-0387-401b-8023-d8795d1f484d",
+			"id": "105cc38c-5977-4bec-a3f4-9384f1317ba7",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "991983cf-b531-4825-abf6-2e090ecd5462",
+			"id": "a376848b-c129-4c90-b344-3f4d1622ebba",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "c98cfdfc-f0f9-44bb-9246-f3d68d992c38",
+			"id": "46d4ebed-38bf-4b94-bf80-b277b73b5ddf",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "7b847b8f-beeb-4fc9-91d3-00005c772d17",
+			"id": "0140184a-fa15-4779-9379-48850ce891bd",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "59d077b1-6f24-4a49-ab1f-21c0009e2c77",
+			"id": "f03f32e2-b8af-496d-98e9-214db63b22bc",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "c6ba193c-90ef-4720-8f49-8f2968b44c74",
+			"id": "ff9bd245-c594-4a4a-b135-c9fc82534f41",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "24e31af3-15e1-49db-bf92-2cd6f66af879",
+			"id": "3f686e31-0754-4b7c-a0a9-9724bee809c8",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "a7ef4774-64d9-4bcc-96d0-e68793724fa4",
+			"id": "b01816e9-50b8-4f1a-a9b7-fe0794a67f08",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "4d71516e-91b6-4db6-b1ae-dda09516ff6f",
+			"id": "88b3a8e2-3e14-4858-9fdb-4301bcedeaa2",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "280a1956-4547-4b6f-825c-9bc80d73a08b",
+			"id": "b6e35288-67f6-456b-9f29-0a9f641a97d2",
 			"key": "id_edge",
 			"value": "2"
 		}
