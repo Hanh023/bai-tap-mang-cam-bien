@@ -7148,11 +7148,11 @@
 													"script": {
 														"id": "51a23208-2612-41ec-8958-36f3d69778c8",
 														"exec": [
-															"// var Randm = Math.floor(Math.random() * 101)",
-															"// var name = \"Mailan\" + Randm;",
-															"// pm.environment.set(\"site_name\",name)",
+															"var Randm = Math.floor(Math.random() * 101)",
+															"var name = \"Mailan\" + Randm;",
+															"pm.environment.set(\"site_name\",name)",
 															"",
-															"// var Sitecount = pm.environment.set(\"site_count\")",
+															"var Sitecount = pm.environment.set(\"site_count\")",
 															"",
 															"// if(Sitecount < 10){",
 															"//     Sitecount = parseInt(Sitecount) + 1;",
@@ -7285,7 +7285,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "// {\r\n//     \"name\": \"{{name_site}}\",\r\n//     \"system_ip\": \"{{$randomIP}}\",\r\n//     \"location\": \"7PH72RC7+V7\"\r\n// }\r\n{\r\n    \"name\": \"{{site_name}}\",\r\n    \"system_ip\": \"{{site_system_ip}}\",\r\n    \"location\": \"7PH72RC7+V7\"\r\n}"
+													"raw": "{\r\n    \"name\": \"{{site_mame}}\",\r\n    \"system_ip\": \"{{$randomIP}}\",\r\n    \"location\": \"7PH72RC7+V7\"\r\n}\r\n// {\r\n//     \"name\": \"{{site_name}}\",\r\n//     \"system_ip\": \"{{site_system_ip}}\",\r\n//     \"location\": \"7PH72RC7+V7\"\r\n// }"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/sites/create"
 											},
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "07e34a07-3092-42e6-a1b1-b6103fce084a",
+			"id": "6bda41eb-4da0-4bfe-9469-db9ea851e223",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "3514ae31-1558-4488-9af1-ebe650d4c5d5",
+			"id": "0f65f3c6-b1d8-48d9-a8b9-beb30c110452",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "18e6f2d5-3c38-4113-bd6a-638281f5e8e5",
+			"id": "dcfa039d-87d6-4d69-bc04-e0f5b5fe3ad1",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "85b1a39e-ca08-4cd8-a738-69630c2b989d",
+			"id": "18858a90-4405-459b-a77f-f1b419a368c2",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "274232f5-988c-4cba-81f4-5c2da01eea8d",
+			"id": "d8ffc46a-5d2b-49b9-a36a-98992d6f5ee2",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "d2186c2a-add2-4950-bf5c-75f0e79da1c1",
+			"id": "01c8fa95-9908-4284-ac0b-bc390f56cc78",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "99adb2ad-0a54-41fc-93a4-496f5aadcb96",
+			"id": "bd682704-bb6f-4370-a5d2-e51b160ac689",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "8ef636b7-1c4d-4011-851f-9ed63979edb9",
+			"id": "30794023-df00-4877-90b9-b0bfb19e9fbf",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "299c1785-043c-4535-82b6-0dcd55982b26",
+			"id": "86aa30d9-3fb8-4c77-aada-f3d0533ad23a",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "a17d097d-87be-41ab-aa26-ec0165f80f17",
+			"id": "fa9b6088-671d-404b-abf6-82fb4494b8d0",
 			"key": "id_edge",
 			"value": "2"
 		}
