@@ -810,7 +810,7 @@
 											"// var Randm = Math.floor(Math.random() * 10001);\r",
 											"\r",
 											"// var name_group =  \"hanh\" + Randm; \r",
-											"// // // var randomNumber = Math.floor(Math.random() * 101);\r",
+											"// // var randomNumber = Math.floor(Math.random() * 101);\r",
 											"\r",
 											"// pm.environment.set(\"user_group\",name_group);\r",
 											"\r",
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "fcfe4fbe-3ac1-46be-b943-17ff37704044",
+			"id": "ffcd66d3-4ae2-489f-8ef2-4139c91b6e9e",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "1604ca72-bc82-4e87-94ff-9188a20d8b1a",
+			"id": "1d255c5e-f2e4-4084-a945-8f3643b998e8",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "4a28be28-7813-43ec-96a1-78865f905049",
+			"id": "718353a8-2575-48bb-92d9-214334d775f1",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "05105fb5-9330-494a-a70d-22b3ba5c6e18",
+			"id": "df32545a-081e-41bd-9979-75942edf1801",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "8bd3ad3e-6445-4fa7-808b-c718287d9989",
+			"id": "3bd63c21-4ac0-421f-b5f7-779848004c63",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "92481a01-c2a7-4e64-b7d3-e431e4149c17",
+			"id": "3c2ec09e-c8f7-4857-8331-bf76bb1639d8",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "73e03ac5-9a85-4b88-870d-9d488f67030e",
+			"id": "16751d11-6fe8-4175-8c97-429f629fd968",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "fd95ae81-a656-47ce-8950-d758e178c6cf",
+			"id": "b039f3d0-757a-42d7-afc1-166454c930cc",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "5a20bce9-19ab-4667-b353-ae81dbfced59",
+			"id": "818ec4a5-d2e2-4920-b9ec-89dc28a9c108",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "969ded90-ca60-4811-8ebf-4ec259b3f3fb",
+			"id": "9ac2312a-6fb2-48b9-913b-ec24ea352f1e",
 			"key": "id_edge",
 			"value": "2"
 		}
