@@ -7331,7 +7331,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"site_id\": {{id_site}},\r\n    \"edge_id\": {{site_edge_id}}\r\n}"
+													"raw": "{\r\n    \"site_id\": \"{{id_site}}\",\r\n    \"edge_id\": \"{{site_edge_id}}\"\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/sdwan/sites/attach-edge"
 											},
@@ -10760,52 +10760,52 @@
 	],
 	"variable": [
 		{
-			"id": "90b213bb-79e0-44c4-ac8d-0125e1d57069",
+			"id": "ef9ca761-4ca5-4312-8e61-8968923fe51f",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "722b3f54-50d8-4e0a-a07d-db65326b8123",
+			"id": "152b861d-0ff4-4db9-ae77-6791ef635e02",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "894c7e8f-8d02-4c92-b16e-f7ad603c4f8a",
+			"id": "61d3c8bf-5dc9-4d38-9017-81e4f75b7c60",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "cc199f6f-838a-4adf-ac09-6953174d80a5",
+			"id": "19bb9897-81a8-4d96-a9ad-61b66bee4273",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "7dbcee79-a1d2-4bf0-a587-17a3d9b9987c",
+			"id": "d56d2af3-07a5-44cb-9659-91293b26a865",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "bb020be1-3120-477b-ae75-e3090966a28b",
+			"id": "db9fa250-db9e-491c-a9f4-03df67c02923",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "987de4a0-4d2a-4295-93ec-27d0f058b1a7",
+			"id": "f212903e-59e2-43a8-84d9-c693fbd15812",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "f9a2ca44-89a5-43a3-804d-b53831e8553c",
+			"id": "9baaf878-84ff-4951-b0c9-cd12a289cc12",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "26dbeb15-db57-4798-839e-32f91403c2fc",
+			"id": "aaf6214a-0b9c-4709-9ba9-1eadc9e49c59",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "c006ab49-ca68-44f6-b4b2-fc37a5c6bc0d",
+			"id": "165f8ced-b594-4ed7-9222-dc7857d07d52",
 			"key": "id_edge",
 			"value": "2"
 		}
