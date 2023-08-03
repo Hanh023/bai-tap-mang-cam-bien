@@ -8404,7 +8404,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "// {\r\n//     \"name\": \"{{name_custom}}\",\r\n//     \"target_ip\": \"{{$randomIP}}\",\r\n//     \"port_start\": {{$randomInt}},\r\n//     \"port_end\": {{$randomInt}},\r\n//     \"protocol\": \"tcp\"\r\n// }\r\n\r\n{\r\n    \"name\": \"{{custom_name}}\",\r\n    \"target_ip\": \"{{custom_target_ip}}\",\r\n    \"port_start\": {{custon_port_start}},\r\n    \"port_end\": {{custon_port_end}},\r\n    \"protocol\": \"{{custom_protocol}}\"\r\n}"
+													"raw": "// {\r\n//     \"name\": \"{{name_custom}}\",\r\n//     \"target_ip\": \"{{$randomIP}}\",\r\n//     \"port_start\": {{$randomInt}},\r\n//     \"port_end\": {{$randomInt}},\r\n//     \"protocol\": \"tcp\"\r\n// }\r\n\r\n{\r\n    \"name\": \"{{custom_name}}\",\r\n    \"target_ip\": \"{{custom_target_ip}}\",\r\n    \"port_start\": {{custom_port_start}},\r\n    \"port_end\": {{custom_port_end}},\r\n    \"protocol\": \"{{custom_protocol}}\"\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/customApp/create"
 											},
@@ -10764,52 +10764,52 @@
 	],
 	"variable": [
 		{
-			"id": "0ec08aec-ea4f-4545-aa46-7c5df567a22e",
+			"id": "7c454373-35e3-462d-8c05-814ddd2d78ce",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "bc1226fd-4410-4402-824e-8493777e8bf3",
+			"id": "7ccfedbd-30c4-48af-b708-a8df5f7573f9",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "3429020d-818e-4f2c-996b-2ba4e09e32b8",
+			"id": "3a0c6d58-d676-4105-bdd3-77d287bda179",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "c3fd9655-9cfe-4918-a04a-bec69db3f683",
+			"id": "bd38d4c4-ee32-4737-8d1f-c9553d4da432",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "7db52bdd-c93a-4761-9e4a-e8062430f5da",
+			"id": "2ea96020-705d-466e-bd21-b923ad093bbc",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "503f84d1-5042-4a78-bf24-90de507ba05c",
+			"id": "ae68ec53-742d-4325-8415-f77d80aa9c52",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "9a0eeaf9-2259-48ee-b63f-2fdcf17310a0",
+			"id": "dec64ed0-1427-4d87-9e04-75e3e445906b",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "9624deaa-8e6c-49a2-af72-7de4f3290584",
+			"id": "a15577ed-8dda-446e-aee0-6c8638976f71",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "30993a78-80ea-4210-aa6b-ee7f14bad7a1",
+			"id": "ce318bbc-0e1a-479a-a752-b4b5c81124da",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "8c88710e-21b7-4065-8729-f29d4f9126ec",
+			"id": "04ce2bf4-4bed-4463-bb07-0fff37c63b1e",
 			"key": "id_edge",
 			"value": "2"
 		}
