@@ -7209,7 +7209,11 @@
 															"            pm.response.to.have.jsonSchema(schema);\r",
 															"            pm.environment.set(\"id_site\",jsonData.data.id)\r",
 															"        })\r",
-															"    }"
+															"    }else {\r",
+															"    pm.test(\"Create site not success\",()=>{\r",
+															"        pm.expect(pm.response.code).to.be.oneOf([200,400]);\r",
+															"    })\r",
+															"}"
 														],
 														"type": "text/javascript"
 													}
@@ -10760,52 +10764,52 @@
 	],
 	"variable": [
 		{
-			"id": "cb944c16-c0b7-48e8-a0c7-2c6a55b85c68",
+			"id": "adb4c325-a2e0-41b1-82d1-76b8ae07b9c5",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "a878ab81-36a7-408f-b62e-5fee4d98a0fb",
+			"id": "acd29ed8-1903-498d-bbc5-81423fcfb71d",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "4f224b34-5dba-4c8d-b4e1-8698826c1bd7",
+			"id": "f98f5670-51cf-4284-a325-cb56f803fd7b",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "73443e0b-f67b-46db-a11e-d73fd3399e6c",
+			"id": "f9ca4f7c-2036-4d8b-877e-d1c951551511",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "14aaf2a5-c65d-4853-ab9c-f22116f7a07c",
+			"id": "ac4704ed-dada-4c99-893e-3fbbeb433d78",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "40636f38-286f-42e0-bedb-134aa3cbe45d",
+			"id": "65ee4a63-4390-448a-b6c8-be7df8540ea6",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "d23fcc32-450d-4612-ab11-0cec7b5c1278",
+			"id": "f056cb4c-4e8d-4cd0-ad81-98f21b5b6266",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "f7dae017-f555-476e-82e3-146195c0bf0e",
+			"id": "4601bf50-3eab-42fc-a535-bd2a3efa9308",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "adc2ca70-d49e-4b6d-baca-de84ce02d328",
+			"id": "fda9f12e-c085-4d07-8364-f850331893d0",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "43393d34-9da3-42f1-bb48-69bd51dad728",
+			"id": "2ee2ca92-4fc8-491a-82fe-9872e8851171",
 			"key": "id_edge",
 			"value": "2"
 		}
