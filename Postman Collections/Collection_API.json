@@ -8353,10 +8353,10 @@
 													"script": {
 														"id": "f18a81b3-d227-469e-b0e9-a7fbd239984a",
 														"exec": [
-															"// var Randm = Math.floor(Math.random() * 101);\r",
+															"var Randm = Math.floor(Math.random() * 101);\r",
 															"\r",
-															"// var name =  \"hanhda\" + Randm;\r",
-															"// pm.environment.set(\"name_custom\",name);"
+															"var name =  \"hanhda\" + Randm;\r",
+															"pm.environment.set(\"name_custom\",name);"
 														],
 														"type": "text/javascript"
 													}
@@ -8404,7 +8404,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "// {\r\n//     \"name\": \"{{name_custom}}\",\r\n//     \"target_ip\": \"{{$randomIP}}\",\r\n//     \"port_start\": {{$randomInt}},\r\n//     \"port_end\": {{$randomInt}},\r\n//     \"protocol\": \"tcp\"\r\n// }\r\n\r\n{\r\n    \"name\": \"{{custom_name}}\",\r\n    \"target_ip\": \"{{custom_target_ip}}\",\r\n    \"port_start\": {{custom_port_start}},\r\n    \"port_end\": {{custom_port_end}},\r\n    \"protocol\": \"{{custom_protocol}}\"\r\n}"
+													"raw": "{\r\n    \"name\": \"{{name_custom}}\",\r\n    \"target_ip\": \"{{$randomIP}}\",\r\n    \"port_start\": {{$randomInt}},\r\n    \"port_end\": {{$randomInt}},\r\n    \"protocol\": \"tcp\"\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/customApp/create"
 											},
@@ -10764,52 +10764,52 @@
 	],
 	"variable": [
 		{
-			"id": "7c454373-35e3-462d-8c05-814ddd2d78ce",
+			"id": "d930ea41-0c11-4eeb-81f5-58f8d6315bb9",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "7ccfedbd-30c4-48af-b708-a8df5f7573f9",
+			"id": "9e87d3bb-cbcf-4a19-a131-cf1f5e9a3114",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "3a0c6d58-d676-4105-bdd3-77d287bda179",
+			"id": "a09780e7-32ad-48de-ba19-9e570a0c77d1",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "bd38d4c4-ee32-4737-8d1f-c9553d4da432",
+			"id": "7b2343fd-4563-470e-94de-0709d053d723",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "2ea96020-705d-466e-bd21-b923ad093bbc",
+			"id": "cd317302-b01f-4a42-a38a-1fe2f91f9f33",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "ae68ec53-742d-4325-8415-f77d80aa9c52",
+			"id": "133d136c-08fa-4055-bd01-24cbedb29e1c",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "dec64ed0-1427-4d87-9e04-75e3e445906b",
+			"id": "113b8d73-035f-402e-ba06-981dcb02d4b6",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "a15577ed-8dda-446e-aee0-6c8638976f71",
+			"id": "8213badb-a2d8-49ee-8e93-2d53e9bedd9b",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "ce318bbc-0e1a-479a-a752-b4b5c81124da",
+			"id": "58632056-b65a-4cf4-872b-184a25d16853",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "04ce2bf4-4bed-4463-bb07-0fff37c63b1e",
+			"id": "5f208c59-4ca8-4025-a4de-7d034bc24f9d",
 			"key": "id_edge",
 			"value": "2"
 		}
