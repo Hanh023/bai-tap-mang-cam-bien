@@ -7802,9 +7802,6 @@
 															"        \"app_name\": {",
 															"          \"type\": \"string\"",
 															"        },",
-															"        \"app_custom\": {",
-															"          \"type\": \"integer\"",
-															"        },",
 															"        \"account_id\": {",
 															"          \"type\": \"integer\"",
 															"        }",
@@ -7814,7 +7811,6 @@
 															"        \"app_list_id\",",
 															"        \"app_id\",",
 															"        \"app_name\",",
-															"        \"app_custom\",",
 															"        \"account_id\"",
 															"      ]",
 															"    }",
@@ -8353,10 +8349,10 @@
 													"script": {
 														"id": "f18a81b3-d227-469e-b0e9-a7fbd239984a",
 														"exec": [
-															"var Randm = Math.floor(Math.random() * 101);\r",
+															"// var Randm = Math.floor(Math.random() * 101);\r",
 															"\r",
-															"var name =  \"hanhda\" + Randm;\r",
-															"pm.environment.set(\"name_custom\",name);"
+															"// var name =  \"hanhda\" + Randm;\r",
+															"// pm.environment.set(\"name_custom\",name);"
 														],
 														"type": "text/javascript"
 													}
@@ -8404,7 +8400,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"name\": \"{{name_custom}}\",\r\n    \"target_ip\": \"{{$randomIP}}\",\r\n    \"port_start\": {{$randomInt}},\r\n    \"port_end\": {{$randomInt}},\r\n    \"protocol\": \"tcp\"\r\n}"
+													"raw": "// {\r\n//     \"name\": \"{{name_custom}}\",\r\n//     \"target_ip\": \"{{$randomIP}}\",\r\n//     \"port_start\": {{$randomInt}},\r\n//     \"port_end\": {{$randomInt}},\r\n//     \"protocol\": \"tcp\"\r\n// }\r\n\r\n{\r\n    \"name\": \"{{custom_name}}\",\r\n    \"target_ip\": \"{{custom_target_ip}}\",\r\n    \"port_start\": {{custom_port_start}},\r\n    \"port_end\": {{custom_port_end}},\r\n    \"protocol\": \"{{custom_protocol}}\"\r\n}"
 												},
 												"url": "{{url_logins}}/linksafe/customApp/create"
 											},
@@ -10764,52 +10760,52 @@
 	],
 	"variable": [
 		{
-			"id": "d930ea41-0c11-4eeb-81f5-58f8d6315bb9",
+			"id": "3bc804c0-fb88-4726-af3e-85fe0cf75494",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "9e87d3bb-cbcf-4a19-a131-cf1f5e9a3114",
+			"id": "de38647e-f881-4e2e-94ce-5c0d130cdbfd",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "a09780e7-32ad-48de-ba19-9e570a0c77d1",
+			"id": "02681312-1daf-4619-a531-f29d105d5085",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "7b2343fd-4563-470e-94de-0709d053d723",
+			"id": "20e6bf43-8dc9-4412-aa68-440cbf0707f0",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "cd317302-b01f-4a42-a38a-1fe2f91f9f33",
+			"id": "2458e350-66c1-4cfc-9ab4-d4b4591c734b",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "133d136c-08fa-4055-bd01-24cbedb29e1c",
+			"id": "90b2c9fc-6233-4957-a035-dcca130307ef",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "113b8d73-035f-402e-ba06-981dcb02d4b6",
+			"id": "eca7b46e-507d-4ec9-9625-4936e012d13f",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "8213badb-a2d8-49ee-8e93-2d53e9bedd9b",
+			"id": "d52ed6a5-7521-49b6-b6f0-9b220d1d0773",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "58632056-b65a-4cf4-872b-184a25d16853",
+			"id": "95d2cb93-2b1f-418e-bad6-d238c8630fdf",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "5f208c59-4ca8-4025-a4de-7d034bc24f9d",
+			"id": "8eb67669-4a4d-4be8-be8a-3a1f3f4e5e9b",
 			"key": "id_edge",
 			"value": "2"
 		}
