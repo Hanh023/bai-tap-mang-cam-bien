@@ -7293,6 +7293,43 @@
 										},
 										{
 											"name": "add serial",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"id": "aa053b10-8e8d-4afd-9dfb-e3c228617f49",
+														"exec": [
+															"var jsonData = pm.response.json();\r",
+															"var schema = {\r",
+															"  \"type\": \"object\",\r",
+															"  \"properties\": {\r",
+															"    \"site_id\": {\r",
+															"      \"type\": \"string\"\r",
+															"    },\r",
+															"    \"edge_id\": {\r",
+															"      \"type\": \"string\"\r",
+															"    }\r",
+															"  },\r",
+															"  \"required\": [\r",
+															"    \"site_id\",\r",
+															"    \"edge_id\"\r",
+															"  ]\r",
+															"}\r",
+															"if(jsonData.error_code == undefined){\r",
+															"    pm.test(\"create serial success\",()=>{\r",
+															"        pm.response.status.to.have(200);\r",
+															"        pm.response.to.have.jsonSchema(schema)\r",
+															"    })\r",
+															"}else {\r",
+															"    pm.test(\"Create serial not success\",()=>{\r",
+															"        pm.expect(pm.response.code).to.be.oneOf([200,400])\r",
+															"    })\r",
+															"}"
+														],
+														"type": "text/javascript"
+													}
+												}
+											],
 											"id": "df179dcd-6a64-4a82-bd5e-4cf09a33b4e3",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
@@ -10764,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "adb4c325-a2e0-41b1-82d1-76b8ae07b9c5",
+			"id": "07e34a07-3092-42e6-a1b1-b6103fce084a",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "acd29ed8-1903-498d-bbc5-81423fcfb71d",
+			"id": "3514ae31-1558-4488-9af1-ebe650d4c5d5",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "f98f5670-51cf-4284-a325-cb56f803fd7b",
+			"id": "18e6f2d5-3c38-4113-bd6a-638281f5e8e5",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "f9ca4f7c-2036-4d8b-877e-d1c951551511",
+			"id": "85b1a39e-ca08-4cd8-a738-69630c2b989d",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "ac4704ed-dada-4c99-893e-3fbbeb433d78",
+			"id": "274232f5-988c-4cba-81f4-5c2da01eea8d",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "65ee4a63-4390-448a-b6c8-be7df8540ea6",
+			"id": "d2186c2a-add2-4950-bf5c-75f0e79da1c1",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "f056cb4c-4e8d-4cd0-ad81-98f21b5b6266",
+			"id": "99adb2ad-0a54-41fc-93a4-496f5aadcb96",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "4601bf50-3eab-42fc-a535-bd2a3efa9308",
+			"id": "8ef636b7-1c4d-4011-851f-9ed63979edb9",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "fda9f12e-c085-4d07-8364-f850331893d0",
+			"id": "299c1785-043c-4535-82b6-0dcd55982b26",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "2ee2ca92-4fc8-491a-82fe-9872e8851171",
+			"id": "a17d097d-87be-41ab-aa26-ec0165f80f17",
 			"key": "id_edge",
 			"value": "2"
 		}
