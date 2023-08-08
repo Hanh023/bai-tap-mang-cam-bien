@@ -2453,7 +2453,7 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "PUT",
+								"method": "POST",
 								"header": [
 									{
 										"key": "Accept",
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "ae840215-36f6-49c0-bbb5-af37babdb660",
+			"id": "8287ba93-1717-417a-95a4-9ea4ed3ee20e",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "ccbc536f-26e0-4018-a7a6-60e040ddf871",
+			"id": "694d2552-957f-4ddc-84eb-0c4298a1bc05",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "4ea6f660-a6ed-44f1-8b45-52310aeedd54",
+			"id": "6360476e-0e3e-4e6a-9e66-d2ab6e4ada9e",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "9b26be48-6cae-4b9d-83db-dcc6be915af4",
+			"id": "1944e690-fe83-417d-8ff3-85af9691f59c",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "03732f02-2356-4e60-bfa2-2d707cb8ba38",
+			"id": "c7c43525-1584-4b3a-8758-e148e04719b1",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "1f610877-deeb-43cf-a6ba-3137c3bd924d",
+			"id": "4797729c-3fcf-42a0-a921-c8d111b13ee2",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "f94e9ab1-ed93-482e-a146-e95a444200d2",
+			"id": "9d51c42c-ba11-400f-8802-04e71fcc3af8",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "43602ece-6691-4f39-967f-eb856f1b710a",
+			"id": "263e12fa-f3d7-4152-8be9-fe0a342ca1dd",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "c06e92ba-aa64-4af4-aa09-debb8a620427",
+			"id": "5f5749f8-ed5b-4100-8dec-2b5f8bc6eb4a",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "2018d41f-9fa1-4654-8165-935d524d3d2d",
+			"id": "9cc5ab55-6af4-4fd5-b08c-08404f09e606",
 			"key": "id_edge",
 			"value": "2"
 		}
