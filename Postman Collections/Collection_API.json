@@ -5771,18 +5771,18 @@
 									"script": {
 										"id": "6304b3b5-9530-4289-9e46-68fbe7daaba5",
 										"exec": [
-											"var userIds = pm.environment.get(\"user_ids\")",
-											"var List = [];",
+											"// var userIds = pm.environment.get(\"user_ids\")",
+											"// var List = [];",
 											"",
-											"userIds.forEach(function(userId) {",
-											"    List.push({ \"id\": parseInt(userId) });",
-											"});",
+											"// userIds.forEach(function(userId) {",
+											"//     List.push({ \"id\": parseInt(userId) });",
+											"// });",
 											"",
-											"var deleteRequest = {",
-											"    \"list_user_del\": List",
-											"};",
+											"// var deleteRequest = {",
+											"//     \"list_user_del\": List",
+											"// };",
 											"",
-											"pm.environment.set(\"delete_all_user\", JSON.stringify(deleteRequest));"
+											"// pm.environment.set(\"delete_all_user\", JSON.stringify(deleteRequest));"
 										],
 										"type": "text/javascript"
 									}
@@ -5797,7 +5797,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{{delete_all_user}}",
+									"raw": "// {{delete_all_user}}\r\n{\r\n    \"list_user_del\": [\r\n        {\r\n            \"id\": 414\r\n        },\r\n        {\r\n            \"id\": 418\r\n        },\r\n        {\r\n            \"id\": 542\r\n        },\r\n        {\r\n            \"id\": 545\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f5be6f8a-533d-46fb-8058-cc4d86d272b8",
+			"id": "d47f716b-f889-467e-a80f-10132de239a5",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "eeecfc83-ec44-4487-8a0d-e4b9565c4c82",
+			"id": "a3023201-a282-4d7d-bc06-9526463404ac",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "6c04222b-fd4b-430a-9089-ad97bbd79e1f",
+			"id": "105efc96-4f49-4fa6-86aa-40d892249d31",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "3846b4c0-1071-4e30-9594-c4c30bbf3c45",
+			"id": "406f10c1-7404-4316-9598-b9b3f8104ad9",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "2c069724-e4dd-42ff-9478-bd325403b7b8",
+			"id": "03e72447-efcb-499f-b696-5d5b0bb113a8",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "466e3046-43b2-4edf-af1c-bd55314f0111",
+			"id": "c54a9d35-46fc-4510-8519-5a3fcb11e9e3",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "043381c1-bb63-4c88-8066-59d8ec8fd77f",
+			"id": "d7ad54f8-eda3-4f50-9f2f-d12d416ce052",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "d2370bff-fc7d-46bc-9c55-395d3df7d016",
+			"id": "7b861ff1-9aec-40ab-bb29-9fcb98df17fa",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "3002696a-452d-4512-8b3b-5282cee3735b",
+			"id": "389b1a54-5097-43e6-aad4-29c9aebfc991",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "c8b69b6f-6f12-4153-9319-5ccd60248996",
+			"id": "13c6f9c3-fcd7-4f0d-b139-810ae9f57054",
 			"key": "id_edge",
 			"value": "2"
 		}
