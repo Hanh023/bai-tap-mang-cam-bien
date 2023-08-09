@@ -5816,18 +5816,18 @@
 									"script": {
 										"id": "ff9a3aa0-4903-4682-95ca-4968f90f030f",
 										"exec": [
-											"var groupIds = pm.environment.get(\"group_ids\")",
-											"var List = [];",
+											"// var groupIds = pm.environment.get(\"group_ids\")",
+											"// var List = [];",
 											"",
-											"groupIds.forEach(function(groupId) {",
-											"    List.push({ \"id\": parseInt(groupId) });",
-											"});",
+											"// groupIds.forEach(function(groupId) {",
+											"//     List.push({ \"id\": parseInt(groupId) });",
+											"// });",
 											"",
-											"var deleteRequest = {",
-											"    \"list_group_del\": List",
-											"};",
+											"// var deleteRequest = {",
+											"//     \"list_group_del\": List",
+											"// };",
 											"",
-											"pm.environment.set(\"delete_all_group\", JSON.stringify(deleteRequest));"
+											"// pm.environment.set(\"delete_all_group\", JSON.stringify(deleteRequest));"
 										],
 										"type": "text/javascript"
 									}
@@ -5876,7 +5876,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{{delete_all_group}}\n  ",
+									"raw": "// {{delete_all_group}}\n{\n    \"list_group_del\": [\n    {\n        \"id\":43724\n    }\n    ]\n}\n\n\n  ",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "d47f716b-f889-467e-a80f-10132de239a5",
+			"id": "f13472fa-ffb1-4888-b78e-d07d16d2f182",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "a3023201-a282-4d7d-bc06-9526463404ac",
+			"id": "5b65c734-0448-42ae-a31c-d3936113cc67",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "105efc96-4f49-4fa6-86aa-40d892249d31",
+			"id": "5bb8354e-65c6-4037-9bf4-138564496e65",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "406f10c1-7404-4316-9598-b9b3f8104ad9",
+			"id": "137748af-7ab1-4d64-8ee7-93f7d00df5e0",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "03e72447-efcb-499f-b696-5d5b0bb113a8",
+			"id": "bc4c5efa-01cc-40d1-a448-b77a337a1a12",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "c54a9d35-46fc-4510-8519-5a3fcb11e9e3",
+			"id": "0668d619-65ce-4d27-bb5c-7ac63a2e5578",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "d7ad54f8-eda3-4f50-9f2f-d12d416ce052",
+			"id": "0d467bb0-2163-4b32-8a53-8041b1af1980",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "7b861ff1-9aec-40ab-bb29-9fcb98df17fa",
+			"id": "9dfb4011-efca-4949-8349-369272c5ec7f",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "389b1a54-5097-43e6-aad4-29c9aebfc991",
+			"id": "c85dffb5-efa2-4c0e-bbe5-766c6982d8a6",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "13c6f9c3-fcd7-4f0d-b139-810ae9f57054",
+			"id": "11be079f-6737-4d17-ba36-f46e87f8f33f",
 			"key": "id_edge",
 			"value": "2"
 		}
