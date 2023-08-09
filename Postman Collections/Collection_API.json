@@ -5771,18 +5771,18 @@
 									"script": {
 										"id": "6304b3b5-9530-4289-9e46-68fbe7daaba5",
 										"exec": [
-											"var userIds = pm.environment.get(\"user_ids\")",
-											"var List = [];",
+											"// var userIds = pm.environment.get(\"user_ids\")",
+											"// var List = [];",
 											"",
-											"userIds.forEach(function(userId) {",
-											"    List.push({ \"id\": parseInt(userId) });",
-											"});",
+											"// userIds.forEach(function(userId) {",
+											"//     List.push({ \"id\": parseInt(userId) });",
+											"// });",
 											"",
-											"var deleteRequest = {",
-											"    \"list_user_del\": List",
-											"};",
+											"// var deleteRequest = {",
+											"//     \"list_user_del\": List",
+											"// };",
 											"",
-											"pm.environment.set(\"delete_all_user\", JSON.stringify(deleteRequest));"
+											"// pm.environment.set(\"delete_all_user\", JSON.stringify(deleteRequest));"
 										],
 										"type": "text/javascript"
 									}
@@ -5797,7 +5797,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{{delete_all_user}}\r\n// {\r\n//     \"list_user_del\": [\r\n//         {\r\n//             \"id\": 25746\r\n//         },\r\n//         {\r\n//             \"id\": 25747\r\n//         },\r\n//         {\r\n//             \"id\": 25748\r\n//         },\r\n//         {\r\n//             \"id\": 25749\r\n//         },\r\n//         {\r\n//             \"id\": 25750\r\n//         },\r\n//         {\r\n//             \"id\": 25751\r\n//         },\r\n//         {\r\n//             \"id\": 25752\r\n//         },\r\n//         {\r\n//             \"id\": 25753\r\n//         },\r\n//         {\r\n//             \"id\": 25754\r\n//         },\r\n//         {\r\n//             \"id\": 25755\r\n//         }\r\n//     ]\r\n// }",
+									"raw": "// {{delete_all_user}}\r\n// {\r\n//     \"list_user_del\": [\r\n//         {\r\n//             \"id\": 25746\r\n//         },\r\n//         {\r\n//             \"id\": 25747\r\n//         },\r\n//         {\r\n//             \"id\": 25748\r\n//         },\r\n//         {\r\n//             \"id\": 25749\r\n//         },\r\n//         {\r\n//             \"id\": 25750\r\n//         },\r\n//         {\r\n//             \"id\": 25751\r\n//         },\r\n//         {\r\n//             \"id\": 25752\r\n//         },\r\n//         {\r\n//             \"id\": 25753\r\n//         },\r\n//         {\r\n//             \"id\": 25754\r\n//         },\r\n//         {\r\n//             \"id\": 25755\r\n//         }\r\n//     ]\r\n// }",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "630fa223-ce03-4558-a82e-a31fbeef5fa3",
+			"id": "c3298acc-efd3-43d4-839b-86a65dcdffc9",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "5e079e5e-088e-4f4a-96b4-c6b0db44b292",
+			"id": "8a21ec23-cf7d-48c0-a44d-414f18539e92",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "2b4a57e9-1899-40c7-ae30-1b615dca93ba",
+			"id": "90b217c4-946b-4918-80e8-a81f0e4ec337",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "0bce391e-e6b5-4a11-85c6-2988a955986f",
+			"id": "26cc6385-422c-40f6-87a7-918fc2222e1d",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "9b87f45f-6b97-4279-b514-b0b3d1c72d74",
+			"id": "b795a478-c226-48b7-bb33-4d9015299fb8",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "a43a3438-29f4-4d19-ae0f-0c384ce5d956",
+			"id": "b4a4ae3b-057f-4e9d-9e8d-ba817fc78cc6",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "49447a1f-e4aa-42f0-b89e-e0f706e3cb55",
+			"id": "a82cdacb-fbf8-443c-9dce-118cb949cb52",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "f20f6fbd-bc1e-474e-8aba-169270f27317",
+			"id": "b7892814-7bab-4934-93ed-f05d139e9f2a",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "de1673c5-a406-49ec-9220-b993cab65db0",
+			"id": "038b94de-4040-4468-b0ba-b12621751b61",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "920b11e0-6df9-421d-bd9d-ddd00b84c141",
+			"id": "7eaa8027-f77d-4abe-87f6-80fbd8b24939",
 			"key": "id_edge",
 			"value": "2"
 		}
