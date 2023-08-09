@@ -205,7 +205,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"login\": \"daohanh\",\r\n    \"password\": \"Hanhdao@215\"\r\n}\r\n\r\n// {\r\n//     \"login\": \"preview\",\r\n//     \"password\": \"Lancsnet@123\"\r\n// }"
+									"raw": "{\r\n    \"login\": \"Đào Hạnh\",\r\n    \"password\": \"Hanhdao@215\"\r\n}\r\n\r\n// {\r\n//     \"login\": \"preview\",\r\n//     \"password\": \"Lancsnet@123\"\r\n// }"
 								},
 								"url": "{{url_logins}}/auth/login"
 							},
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "4aebf027-b808-4420-812a-25ef03174f49",
+			"id": "96d732a1-0982-4e23-864b-b421ffc414b9",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "3a3c833f-25b0-4576-9dcd-f4a9f99a668b",
+			"id": "c0256cf5-2502-4369-8348-f8bc2646bfc7",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "11ca2ae1-792f-4fd8-9dbd-7c3008528cc6",
+			"id": "549028f6-aae2-454b-8e23-560bc511b255",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "16cd23a5-74c7-45b6-93d4-18e1b1732e18",
+			"id": "16bcd857-57b7-4ce5-bb4a-4786e1858e67",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "64042895-01d5-4fac-a51d-80588a4b9282",
+			"id": "7df5b2b9-b8e9-44ee-82a4-cd3abbc01ec1",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "aa33a8cb-f9b0-41e2-9f2d-dc7b0e698e21",
+			"id": "67c68eb4-4fc5-41b5-82db-cddca0449951",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "457f9d8a-c84a-41cb-b024-6e0359b2a157",
+			"id": "3b4d6f9a-17b0-4bed-9efa-6751edc8ace9",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "20bc74d2-a913-45b5-8a37-aaf19dcfc1c3",
+			"id": "b13ed6c9-4389-4af6-be65-4a19d93da755",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "8a927457-c5c2-4906-a4c9-9e3e966c28fc",
+			"id": "37706f0b-500b-4d0e-b357-904e3c0c9de6",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "fd388433-d644-4b37-be09-63d26c2a39f3",
+			"id": "93877e4d-3129-4c9b-9947-6bf2407dfb61",
 			"key": "id_edge",
 			"value": "2"
 		}
