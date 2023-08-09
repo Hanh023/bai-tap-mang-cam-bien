@@ -807,12 +807,12 @@
 									"script": {
 										"id": "4a4b6929-cd0d-416b-82b4-42ee8972693b",
 										"exec": [
-											"// var Randm = Math.floor(Math.random() * 10001);\r",
+											"var Randm = Math.floor(Math.random() * 10001);\r",
 											"\r",
-											"// var name_group =  \"hanh\" + Randm; \r",
-											"// // var randomNumber = Math.floor(Math.random() * 101);\r",
+											"var name_group =  \"hanh\" + Randm; \r",
+											"// var randomNumber = Math.floor(Math.random() * 101);\r",
 											"\r",
-											"// pm.environment.set(\"user_group\",name_group);\r",
+											"pm.environment.set(\"user_group\",name_group);\r",
 											"\r",
 											"\r",
 											"// var runCount = pm.environment.get(\"run_count\")\r",
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "7598e9e9-68f7-48f6-a91a-50fecd7789a8",
+			"id": "5c86fb5e-dceb-4516-96a0-9fefc390b1eb",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "81c8d6bb-df9e-41fd-9145-f4839c70e357",
+			"id": "78a260b7-d3d0-43ef-89ee-b11e1fc49742",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "b8e93b35-7192-47fc-ae3e-261dc85ea3d0",
+			"id": "9880b17b-f999-4c62-9c5a-a3768bc4a8e6",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "f8742baf-8fe4-4f50-95fb-3db1888730d1",
+			"id": "214a26d5-6c66-4b02-81f0-4c8fd1d1db68",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "6bc80857-ed77-490d-b97d-bd18526e2d03",
+			"id": "ba299214-55aa-4809-bec3-5491eddc7497",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "fa0981a1-69b6-4c09-9fc7-6f68a8a90878",
+			"id": "b2418b63-70bc-4b30-b514-ba9c31ee8ea1",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "430b3ded-2292-4d96-9e24-209d82fe9d0d",
+			"id": "fdd7f3d6-89f4-400c-9084-fe6e1b99203a",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "7fa5fbc2-466e-434c-89c3-9dab30f99dd0",
+			"id": "2964cb01-fbac-418f-9c5f-4c0e5d256f82",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "70c5a7c1-9816-49ce-bf7a-603a72d1c901",
+			"id": "d609497a-39a5-4eea-bb87-7fc9fd3a0eff",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "7bb8c611-ea4c-4a79-bb29-b00be009392d",
+			"id": "300e04d0-5835-43eb-8c27-235b522c184c",
 			"key": "id_edge",
 			"value": "2"
 		}
