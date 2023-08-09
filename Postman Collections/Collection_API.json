@@ -5797,7 +5797,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// {{delete_all_user}}\r\n// {\r\n//     \"list_user_del\": [\r\n//         {\r\n//             \"id\": 25746\r\n//         },\r\n//         {\r\n//             \"id\": 25747\r\n//         },\r\n//         {\r\n//             \"id\": 25748\r\n//         },\r\n//         {\r\n//             \"id\": 25749\r\n//         },\r\n//         {\r\n//             \"id\": 25750\r\n//         },\r\n//         {\r\n//             \"id\": 25751\r\n//         },\r\n//         {\r\n//             \"id\": 25752\r\n//         },\r\n//         {\r\n//             \"id\": 25753\r\n//         },\r\n//         {\r\n//             \"id\": 25754\r\n//         },\r\n//         {\r\n//             \"id\": 25755\r\n//         }\r\n//     ]\r\n// }",
+									"raw": "// {{delete_all_user}}\r\n\r\n        {\r\n            \"id\": 31486\r\n        },\r\n        {\r\n            \"id\": 31487\r\n        },\r\n        {\r\n            \"id\": 31488\r\n        },\r\n        {\r\n            \"id\": 31489\r\n        },\r\n        {\r\n            \"id\": 31490\r\n        },\r\n        {\r\n            \"id\": 31491\r\n        },\r\n        {\r\n            \"id\": 31492\r\n        },\r\n        {\r\n            \"id\": 31493\r\n        },\r\n        {\r\n            \"id\": 31494\r\n        },\r\n        {\r\n            \"id\": 31495\r\n        },\r\n        {\r\n            \"id\": 31496\r\n        },\r\n        {\r\n            \"id\": 31497\r\n        },\r\n        {\r\n            \"id\": 31498\r\n        },\r\n        {\r\n            \"id\": 31499\r\n        },\r\n        {\r\n            \"id\": 31500\r\n        },\r\n        {\r\n            \"id\": 31501\r\n        },\r\n        {\r\n            \"id\": 31502\r\n        },\r\n        {\r\n            \"id\": 31503\r\n        },\r\n        {\r\n            \"id\": 31504\r\n        },\r\n        {\r\n            \"id\": 31505\r\n        },\r\n        {\r\n            \"id\": 31506\r\n        },\r\n        {\r\n            \"id\": 31507\r\n        },\r\n        {\r\n            \"id\": 31508\r\n        },\r\n        {\r\n            \"id\": 31509\r\n        },\r\n        {\r\n            \"id\": 31510\r\n        },\r\n        {\r\n            \"id\": 31511\r\n        },\r\n        {\r\n            \"id\": 31512\r\n        },\r\n        {\r\n            \"id\": 31513\r\n        },\r\n        {\r\n            \"id\": 31514\r\n        },\r\n        {\r\n            \"id\": 31515\r\n        },\r\n        {\r\n            \"id\": 31516\r\n        },\r\n        {\r\n            \"id\": 31517\r\n        },\r\n        {\r\n            \"id\": 31518\r\n        },\r\n        {\r\n            \"id\": 31519\r\n        },\r\n        {\r\n            \"id\": 31520\r\n        },\r\n        {\r\n            \"id\": 31521\r\n        },\r\n        {\r\n            \"id\": 31522\r\n        },\r\n        {\r\n            \"id\": 31523\r\n        },\r\n        {\r\n            \"id\": 31524\r\n        },\r\n        {\r\n            \"id\": 31525\r\n        },\r\n        {\r\n            \"id\": 31526\r\n        },\r\n        {\r\n            \"id\": 31527\r\n        },\r\n        {\r\n            \"id\": 31528\r\n        },\r\n        {\r\n            \"id\": 31529\r\n        },\r\n        {\r\n            \"id\": 31530\r\n        },\r\n        {\r\n            \"id\": 31531\r\n        },\r\n        {\r\n            \"id\": 31532\r\n        },\r\n        {\r\n            \"id\": 31533\r\n        },\r\n        {\r\n            \"id\": 31534\r\n        },\r\n        {\r\n            \"id\": 31535\r\n        },\r\n        {\r\n            \"id\": 31536\r\n        },\r\n        {\r\n            \"id\": 31537\r\n        },\r\n        {\r\n            \"id\": 31538\r\n        },\r\n        {\r\n            \"id\": 31539\r\n        },\r\n        {\r\n            \"id\": 31540\r\n        },\r\n        {\r\n            \"id\": 31541\r\n        },\r\n        {\r\n            \"id\": 31542\r\n        },\r\n        {\r\n            \"id\": 31543\r\n        },\r\n        {\r\n            \"id\": 31544\r\n        },\r\n        {\r\n            \"id\": 31545\r\n        },\r\n        {\r\n            \"id\": 31546\r\n        },\r\n        {\r\n            \"id\": 31547\r\n        },\r\n        {\r\n            \"id\": 31548\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "96d732a1-0982-4e23-864b-b421ffc414b9",
+			"id": "8f76c9eb-a136-4474-87e3-2e89a9780915",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "c0256cf5-2502-4369-8348-f8bc2646bfc7",
+			"id": "be151c8a-0be9-4159-8c59-b785ee184796",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "549028f6-aae2-454b-8e23-560bc511b255",
+			"id": "f6ca705c-f6c7-4481-9b1d-a4067c56151d",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "16bcd857-57b7-4ce5-bb4a-4786e1858e67",
+			"id": "b8429d8a-cd5d-47eb-a5e9-032c48c2eab3",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "7df5b2b9-b8e9-44ee-82a4-cd3abbc01ec1",
+			"id": "f4383d38-2cd2-4bd6-8133-aa458691559e",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "67c68eb4-4fc5-41b5-82db-cddca0449951",
+			"id": "1cda3c18-6994-461b-9aa5-8404ef0092eb",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "3b4d6f9a-17b0-4bed-9efa-6751edc8ace9",
+			"id": "d56b891e-7395-4da0-8b78-2e5ae6a11f4d",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "b13ed6c9-4389-4af6-be65-4a19d93da755",
+			"id": "93ea7019-0807-42b4-ac50-f72c7486486f",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "37706f0b-500b-4d0e-b357-904e3c0c9de6",
+			"id": "9fc5a778-5220-41c6-9770-2890f2859204",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "93877e4d-3129-4c9b-9947-6bf2407dfb61",
+			"id": "93a9a24b-51af-44c1-a86f-519fee1c109b",
 			"key": "id_edge",
 			"value": "2"
 		}
