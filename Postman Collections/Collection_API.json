@@ -5797,7 +5797,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// {{delete_all_user}}\r\n{\r\n    \"list_user_del\": [\r\n        {\r\n            \"id\": 414\r\n        },\r\n        {\r\n            \"id\": 418\r\n        },\r\n        {\r\n            \"id\": 542\r\n        },\r\n        {\r\n            \"id\": 545\r\n        }\r\n    ]\r\n}",
+									"raw": "// {{delete_all_user}}\r\n{\r\n    \"list_user_del\": [\r\n        {\r\n            \"id\": 25680\r\n        },\r\n        {\r\n            \"id\": 25681\r\n        },\r\n        {\r\n            \"id\": 25682\r\n        },\r\n        {\r\n            \"id\": 25683\r\n        },\r\n        {\r\n            \"id\": 25684\r\n        },\r\n        {\r\n            \"id\": 25685\r\n        },\r\n        {\r\n            \"id\": 25686\r\n        },\r\n        {\r\n            \"id\": 25687\r\n        },\r\n        {\r\n            \"id\": 25688\r\n        },\r\n        {\r\n            \"id\": 25689\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f13472fa-ffb1-4888-b78e-d07d16d2f182",
+			"id": "7598e9e9-68f7-48f6-a91a-50fecd7789a8",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "5b65c734-0448-42ae-a31c-d3936113cc67",
+			"id": "81c8d6bb-df9e-41fd-9145-f4839c70e357",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "5bb8354e-65c6-4037-9bf4-138564496e65",
+			"id": "b8e93b35-7192-47fc-ae3e-261dc85ea3d0",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "137748af-7ab1-4d64-8ee7-93f7d00df5e0",
+			"id": "f8742baf-8fe4-4f50-95fb-3db1888730d1",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "bc4c5efa-01cc-40d1-a448-b77a337a1a12",
+			"id": "6bc80857-ed77-490d-b97d-bd18526e2d03",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "0668d619-65ce-4d27-bb5c-7ac63a2e5578",
+			"id": "fa0981a1-69b6-4c09-9fc7-6f68a8a90878",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "0d467bb0-2163-4b32-8a53-8041b1af1980",
+			"id": "430b3ded-2292-4d96-9e24-209d82fe9d0d",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "9dfb4011-efca-4949-8349-369272c5ec7f",
+			"id": "7fa5fbc2-466e-434c-89c3-9dab30f99dd0",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "c85dffb5-efa2-4c0e-bbe5-766c6982d8a6",
+			"id": "70c5a7c1-9816-49ce-bf7a-603a72d1c901",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "11be079f-6737-4d17-ba36-f46e87f8f33f",
+			"id": "7bb8c611-ea4c-4a79-bb29-b00be009392d",
 			"key": "id_edge",
 			"value": "2"
 		}
