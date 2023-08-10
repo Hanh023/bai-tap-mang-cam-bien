@@ -205,7 +205,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"login\": \"Đào Hạnh\",\r\n    \"password\": \"Hanhdao@215\"\r\n}\r\n\r\n// {\r\n//     \"login\": \"preview\",\r\n//     \"password\": \"Lancsnet@123\"\r\n// }"
+									"raw": "{\r\n    \"login\": \"Đào Hạnh\",\r\n    \"password\": \"Hanhdao@215\"\r\n}\r\n\r\n// {\r\n//     \"login\": \"preview\",\r\n//     \"password\": \"Lancsnet@123\"\r\n// }\r\n\r\n// {\r\n//     \"login\": \"thuthuy\",\r\n//     \"password\": \"Duong12@\"\r\n// }"
 								},
 								"url": "{{url_logins}}/auth/login"
 							},
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f55cdcca-7fdd-4ad2-9aec-1e586f5d2fb8",
+			"id": "2ec79d86-e21b-422f-b054-b451f55fe0bf",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "46afd432-d3b2-476b-aca1-4448fc686221",
+			"id": "1abaa13a-d072-459e-9e74-dfe2debf5612",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "cd2183a1-69d1-43dd-83a2-0c7968542279",
+			"id": "941272e9-92ba-4fa1-ba66-ef593323584c",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "3a4459fd-4a87-4ad7-bc8d-90eb34660aa0",
+			"id": "a6b2185f-84ab-4071-8f3f-9d2fabf14428",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "7cdee6da-5e10-4f6e-a297-0577e7a913e5",
+			"id": "cb826c06-865a-4138-8960-92d2f4c94229",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "eef60278-694c-46a9-8340-823840dc66da",
+			"id": "db799fa4-c26a-4473-b2b9-7ae42319b11e",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "be6a48e8-4ad3-47ef-8d50-4092d2efd071",
+			"id": "635bbae7-0941-4af6-9268-d4f0c23ad21d",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "4a7023b5-4658-448b-89fc-41223dddf47d",
+			"id": "b189faff-99bf-48ed-8f93-20e31baf4e54",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "4d2b2e77-2e3b-4e7d-a396-67d86408d18c",
+			"id": "e91900b6-e00f-42f9-9550-6cb1060aa9b9",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "7db9ef68-6100-44ba-917c-923788f1ca4a",
+			"id": "ede444ae-c776-4eef-8857-d9e1563e9462",
 			"key": "id_edge",
 			"value": "2"
 		}
