@@ -2029,24 +2029,24 @@
 										"id": "acbbd1fa-7927-4836-b6d1-e7a59206308e",
 										"exec": [
 											"// var jsonData = pm.response.json();\r",
-											"var Randm = Math.floor(Math.random() * 10001);\r",
-											"var name_action =  \"hanhdao\" + Randm;\r",
-											"// var pass_action = \"hanhdao\" + Randm;\r",
-											"pm.environment.set(\"user_action\",name_action)\r",
+											"// var Randm = Math.floor(Math.random() * 10001);\r",
+											"// var name_action =  \"hanhdao\" + Randm;\r",
+											"// // var pass_action = \"hanhdao\" + Randm;\r",
+											"// pm.environment.set(\"user_action\",name_action)\r",
 											"\r",
-											"var countAction = pm.environment.get(\"action_count\")\r",
+											"// var countAction = pm.environment.get(\"action_count\")\r",
 											"\r",
-											"if(countAction < 10){\r",
-											"    countAction = parseInt(countAction) + 1;\r",
-											"    pm.environment.set(\"action_count\",countAction.toString());\r",
-											"    postman.setNextRequest(\"create policy\")\r",
-											"}else{\r",
-											"    postman.setNextRequest(\"create sce\")\r",
-											"}\r",
-											"var policount = pm.environment.get(\"poli_count\")\r",
-											"if(policount >=10){\r",
-											"    pm.environment.set(\"poli_count\",\"0\")\r",
-											"}\r",
+											"// if(countAction < 10){\r",
+											"//     countAction = parseInt(countAction) + 1;\r",
+											"//     pm.environment.set(\"action_count\",countAction.toString());\r",
+											"//     postman.setNextRequest(\"create policy\")\r",
+											"// }else{\r",
+											"//     postman.setNextRequest(\"create sce\")\r",
+											"// }\r",
+											"// var policount = pm.environment.get(\"poli_count\")\r",
+											"// if(policount >=10){\r",
+											"//     pm.environment.set(\"poli_count\",\"0\")\r",
+											"// }\r",
 											""
 										],
 										"type": "text/javascript"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "8b66bc51-c3c4-477e-8a88-c3b51ff38600",
+			"id": "f2dbfe05-6205-47cb-90cc-251ad57f0923",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "f46718be-7989-463a-bc38-75cdc4e7769a",
+			"id": "45ca7015-0f0a-4b36-bf01-82e570d4fc86",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "4a26477f-8ad3-4c5a-88b5-82414431937f",
+			"id": "30b0ad73-243d-4844-9fb5-41f8d48c9a02",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "3088b920-e238-4992-9798-7ce978d2eecb",
+			"id": "878a9d00-eee2-41d7-951b-aa0004cfa92e",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "ed9e3694-14cf-4001-a39c-006a0bdbe660",
+			"id": "ae02aea5-3c95-4337-a798-939a3e557d1c",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "79de8365-69a8-4c46-972b-35a73f3e0fb5",
+			"id": "4f3bbf68-3219-4259-82d5-1cff5bc9297d",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "bf9cc9ff-74e4-4bbe-ace1-06d3fc4bb994",
+			"id": "f250b4e8-ca86-4951-aaa1-d5ca74adcf37",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "fdcf491f-b30f-4656-ba64-1bc5690198b5",
+			"id": "a26a4446-159f-410f-bdc0-9937aa7b4a38",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "7bbcdb79-e89d-403e-992c-b57dc0f0080c",
+			"id": "37f107f1-5a99-451f-bc05-ed55331f95f5",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "fd76dfe5-40cb-408b-aa96-57171b0b1a09",
+			"id": "94aaab58-ebb1-4b58-a67e-f62286d0e53a",
 			"key": "id_edge",
 			"value": "2"
 		}
