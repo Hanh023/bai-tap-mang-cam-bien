@@ -5876,7 +5876,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// {{delete_all_group}}\n{\"list_group_del\":[{\"id\":44047},{\"id\":44048},{\"id\":44049},{\"id\":44050},{\"id\":44051},{\"id\":44052},{\"id\":44053},{\"id\":44054},{\"id\":44055},{\"id\":44056}]}",
+									"raw": "// {{delete_all_group}}\n{\"list_group_del\":[{\"id\":44047},{\"id\":44048},{\"id\":44049},{\"id\":44050},{\"id\":44051},{\"id\":44052},{\"id\":44053},{\"id\":44054},{\"id\":44055},{\"id\":44056}]}\n\n\n\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f886b77e-b6af-4cae-8f1e-05f35683e0dc",
+			"id": "c71abcf4-7fa0-47a0-bae2-40b14cd60de7",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "efad68a5-c24f-4fbc-be6f-a9ca76510cd3",
+			"id": "fae3e91c-8b05-4192-80f4-e481231734f6",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "a6b9c889-7973-4e0b-9cdf-cc767372b6f7",
+			"id": "4801c11e-b66c-48b6-835d-1496b78e33f6",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "5c5de709-6c1f-486a-be04-0b7a2c4da061",
+			"id": "8aa0b827-92fd-4566-bc46-2977749161b7",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "fd62ad30-ec87-460c-8c4e-875bbd4546f6",
+			"id": "d48d3a95-5b35-4f3d-a5d3-afed70ff322e",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "30677dee-d53f-4a97-894f-2e8a7e08f4bf",
+			"id": "9fbcbdc2-53e2-4e3d-97ba-0b3bfd8cc4df",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "9754a0b9-dc18-41d4-b138-e83f75f918a3",
+			"id": "faf797e1-63c2-44b2-8c2d-6be57e97f66f",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "99b6f04a-8a32-4a80-8239-e9c94917b2cc",
+			"id": "7004cc3d-ca63-4736-bc3d-3e373e0fd31b",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "7596c696-e853-44b5-be2f-ea69da3d244c",
+			"id": "0d5d0744-abe0-4ba2-967d-19cdc6817a5f",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "9f774ec3-f2ec-4fe6-a6db-3c71699b4db3",
+			"id": "40afe5ba-bac9-436d-bdbb-0e9fff7a173d",
 			"key": "id_edge",
 			"value": "2"
 		}
