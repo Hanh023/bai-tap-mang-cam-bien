@@ -1062,13 +1062,13 @@
 									"script": {
 										"id": "7cdaf08f-5fde-488c-ba25-e7908c3897f2",
 										"exec": [
-											"var Randm = Math.floor(Math.random() * 10001);\r",
-											"var name =  \"hanh\" + Randm;\r",
-											"var pass = \"hanhq\" + Randm;\r",
-											";\r",
-											"pm.environment.set(\"user_name\",name);\r",
-											"pm.environment.set(\"user_password\",pass);\r",
-											"pm.environment.set(\"active\",1);\r",
+											"// var Randm = Math.floor(Math.random() * 10001);\r",
+											"// var name =  \"hanh\" + Randm;\r",
+											"// var pass = \"hanhq\" + Randm;\r",
+											"// ;\r",
+											"// pm.environment.set(\"user_name\",name);\r",
+											"// pm.environment.set(\"user_password\",pass);\r",
+											"// pm.environment.set(\"active\",1);\r",
 											"// pm.environment.set(\"group_id\",469)\r",
 											"// pm.environment.set(\"run_count\",0);\r",
 											"// var runCount = pm.environment.get(\"run_count\");\r",
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f3e1c5c4-d083-4082-9881-6ccc74af7eb9",
+			"id": "ee3c0388-2b24-4b8f-8bc6-cc6dfc655ec4",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "0701806a-99a8-45ab-96eb-d29e0b97fac5",
+			"id": "c80516ba-6fff-44f2-9396-2e3834eb8737",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "9c3d5fb4-8289-461e-b1d4-c8cf47f4ab79",
+			"id": "f18124d5-a2ed-4757-8df7-952d32827177",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "6ad62fcd-6499-47e1-bed5-dd9e358c9bdf",
+			"id": "2b0bd562-94e8-4cd6-a153-3c9684f7c47e",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "9d25cb2d-0844-4db7-a1bb-d3d8c5412f70",
+			"id": "2eb42de0-ceb2-4664-9ea5-5cd6dfe9fc26",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "2cdd2b02-e445-4199-b137-7c4b7bd0df1c",
+			"id": "8b7fb151-3d8e-41aa-b743-d2b076e92609",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "4b34fda1-5865-4181-a680-e51f06d8b606",
+			"id": "7aa0822f-1623-4420-87ac-9a5ab1c66889",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "10e2adb8-433d-4d78-a65f-4165279440ab",
+			"id": "e76a68cf-18c0-49b9-a5bc-0ccfb6d54749",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "3cb0b7f9-a151-4913-8433-de28fa96213d",
+			"id": "5a9855f4-53bb-48a4-b583-80c6c4d31fd5",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "9ae38e21-b26f-4a5a-9eb4-6dc58ff36f10",
+			"id": "7cb11ca9-7e0a-45e8-958b-f6fb936a5bd1",
 			"key": "id_edge",
 			"value": "2"
 		}
