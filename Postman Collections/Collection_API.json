@@ -5876,7 +5876,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// {{delete_all_group}}\n{\n    \"list_group_del\": [\n        {\n            \"id\": 43888\n        }\n    ]\n}",
+									"raw": "// {{delete_all_group}}\n{\"list_group_del\":[{\"id\":44047},{\"id\":44048},{\"id\":44049},{\"id\":44050},{\"id\":44051},{\"id\":44052},{\"id\":44053},{\"id\":44054},{\"id\":44055},{\"id\":44056}]}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "2ec79d86-e21b-422f-b054-b451f55fe0bf",
+			"id": "c4af3b96-8d20-4838-8013-755d69fb72a7",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "1abaa13a-d072-459e-9e74-dfe2debf5612",
+			"id": "0725bd23-ff6d-44f0-abda-c8cb2cd52406",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "941272e9-92ba-4fa1-ba66-ef593323584c",
+			"id": "2e3c7173-81cb-42f9-99e3-402fae2010c9",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "a6b2185f-84ab-4071-8f3f-9d2fabf14428",
+			"id": "217dc1b2-f3c8-4e57-8d88-249dea4ac82f",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "cb826c06-865a-4138-8960-92d2f4c94229",
+			"id": "edf35204-da1b-416f-9b83-ebdf225c2426",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "db799fa4-c26a-4473-b2b9-7ae42319b11e",
+			"id": "93bbec6c-b973-407d-a685-4768590d0d7c",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "635bbae7-0941-4af6-9268-d4f0c23ad21d",
+			"id": "1c9d849d-1a68-4521-8e29-70f9b42a333d",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "b189faff-99bf-48ed-8f93-20e31baf4e54",
+			"id": "e8826468-570e-4159-8c0f-bbb0820af77d",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "e91900b6-e00f-42f9-9550-6cb1060aa9b9",
+			"id": "e13ca0f3-55f6-41c5-bb9f-322d1b57e753",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "ede444ae-c776-4eef-8857-d9e1563e9462",
+			"id": "a45a0a1d-9878-47a5-8af9-bbef356e8e58",
 			"key": "id_edge",
 			"value": "2"
 		}
