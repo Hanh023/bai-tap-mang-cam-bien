@@ -205,7 +205,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"login\": \"Đào Hạnh\",\r\n    \"password\": \"Hanhdao@215\"\r\n}\r\n\r\n// {\r\n//     \"login\": \"preview\",\r\n//     \"password\": \"Lancsnet@123\"\r\n// }\r\n\r\n// {\r\n//     \"login\": \"thuthuy\",\r\n//     \"password\": \"Duong12@\"\r\n// }"
+									"raw": "{\r\n    \"login\": \"test878\",\r\n    \"password\": \"Daohanh@123\"\r\n}\r\n\r\n// {\r\n//     \"login\": \"preview\",\r\n//     \"password\": \"Lancsnet@123\"\r\n// }\r\n\r\n// {\r\n//     \"login\": \"thuthuy\",\r\n//     \"password\": \"Duong12@\"\r\n// }"
 								},
 								"url": "{{url_logins}}/auth/login"
 							},
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f231e45e-b1fe-4ba0-8e77-9bf1e2fba9b1",
+			"id": "f886b77e-b6af-4cae-8f1e-05f35683e0dc",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "142f601b-f6e7-4932-8c25-129364a60327",
+			"id": "efad68a5-c24f-4fbc-be6f-a9ca76510cd3",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "a435c330-a378-452a-8061-9effd1f5fa57",
+			"id": "a6b9c889-7973-4e0b-9cdf-cc767372b6f7",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "9b65de03-825a-4673-9cfa-2131a1d9014c",
+			"id": "5c5de709-6c1f-486a-be04-0b7a2c4da061",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "af3d55c5-9a8a-4144-aafd-bc22432a4fc4",
+			"id": "fd62ad30-ec87-460c-8c4e-875bbd4546f6",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "8cbea14d-309a-4041-bc1c-09205bd24b72",
+			"id": "30677dee-d53f-4a97-894f-2e8a7e08f4bf",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "70614933-8bc3-467f-964f-3c86d4263e58",
+			"id": "9754a0b9-dc18-41d4-b138-e83f75f918a3",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "a57d7703-f938-4c90-92c0-7b0bacdeb5df",
+			"id": "99b6f04a-8a32-4a80-8239-e9c94917b2cc",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "4b0974b6-8dd4-446f-af59-5ece82897856",
+			"id": "7596c696-e853-44b5-be2f-ea69da3d244c",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "977ed197-3c5e-4bdc-a279-084b87d236aa",
+			"id": "9f774ec3-f2ec-4fe6-a6db-3c71699b4db3",
 			"key": "id_edge",
 			"value": "2"
 		}
