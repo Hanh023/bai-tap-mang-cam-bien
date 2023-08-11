@@ -2213,25 +2213,25 @@
 									"script": {
 										"id": "d1871d95-a220-4add-87f7-ac30ae838432",
 										"exec": [
-											"var Randm = Math.floor(Math.random() * 10001);\r",
-											"var name_policy =  \"hanh@\" + Randm;\r",
-											"// var pass_action = \"hanhdao\" + Randm;\r",
-											"pm.environment.set(\"user_policy\",name_policy)\r",
+											"// var Randm = Math.floor(Math.random() * 10001);\r",
+											"// var name_policy =  \"hanh@\" + Randm;\r",
+											"// // var pass_action = \"hanhdao\" + Randm;\r",
+											"// pm.environment.set(\"user_policy\",name_policy)\r",
 											"\r",
-											"var runPoli = pm.environment.get(\"poli_count\");\r",
+											"// var runPoli = pm.environment.get(\"poli_count\");\r",
 											"\r",
-											"if (parseInt(runPoli) < 10) {\r",
-											"    runPoli = parseInt(runPoli) + 1;\r",
-											"    pm.environment.set(\"poli_count\",runPoli.toString())\r",
-											"    postman.setNextRequest(\"create action\");\r",
+											"// if (parseInt(runPoli) < 10) {\r",
+											"//     runPoli = parseInt(runPoli) + 1;\r",
+											"//     pm.environment.set(\"poli_count\",runPoli.toString())\r",
+											"//     postman.setNextRequest(\"create action\");\r",
 											"    \r",
 											"    \r",
-											"}\r",
-											"else{\r",
-											"    // pm.environment.set(\"run_count\",0);\r",
-											"    postman.setNextRequest(\"create sce\");\r",
+											"// }\r",
+											"// else{\r",
+											"//     // pm.environment.set(\"run_count\",0);\r",
+											"//     postman.setNextRequest(\"create sce\");\r",
 											"    \r",
-											"}\r",
+											"// }\r",
 											"\r",
 											"\r",
 											""
@@ -10801,52 +10801,52 @@
 	],
 	"variable": [
 		{
-			"id": "f2dbfe05-6205-47cb-90cc-251ad57f0923",
+			"id": "f231e45e-b1fe-4ba0-8e77-9bf1e2fba9b1",
 			"key": "id_count",
 			"value": ""
 		},
 		{
-			"id": "45ca7015-0f0a-4b36-bf01-82e570d4fc86",
+			"id": "142f601b-f6e7-4932-8c25-129364a60327",
 			"key": "url_logins",
 			"value": "r"
 		},
 		{
-			"id": "30b0ad73-243d-4844-9fb5-41f8d48c9a02",
+			"id": "a435c330-a378-452a-8061-9effd1f5fa57",
 			"key": "user_id",
 			"value": "rrr"
 		},
 		{
-			"id": "878a9d00-eee2-41d7-951b-aa0004cfa92e",
+			"id": "9b65de03-825a-4673-9cfa-2131a1d9014c",
 			"key": "token_cloud",
 			"value": "2"
 		},
 		{
-			"id": "ae02aea5-3c95-4337-a798-939a3e557d1c",
+			"id": "af3d55c5-9a8a-4144-aafd-bc22432a4fc4",
 			"key": "edge_id",
 			"value": "1"
 		},
 		{
-			"id": "4f3bbf68-3219-4259-82d5-1cff5bc9297d",
+			"id": "8cbea14d-309a-4041-bc1c-09205bd24b72",
 			"key": "id_sce",
 			"value": "r"
 		},
 		{
-			"id": "f250b4e8-ca86-4951-aaa1-d5ca74adcf37",
+			"id": "70614933-8bc3-467f-964f-3c86d4263e58",
 			"key": "id_policy",
 			"value": "12"
 		},
 		{
-			"id": "a26a4446-159f-410f-bdc0-9937aa7b4a38",
+			"id": "a57d7703-f938-4c90-92c0-7b0bacdeb5df",
 			"key": "id_action",
 			"value": "1"
 		},
 		{
-			"id": "37f107f1-5a99-451f-bc05-ed55331f95f5",
+			"id": "4b0974b6-8dd4-446f-af59-5ece82897856",
 			"key": "id_group",
 			"value": "4"
 		},
 		{
-			"id": "94aaab58-ebb1-4b58-a67e-f62286d0e53a",
+			"id": "977ed197-3c5e-4bdc-a279-084b87d236aa",
 			"key": "id_edge",
 			"value": "2"
 		}
